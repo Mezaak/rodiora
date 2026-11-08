@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rodiora — AI Video, Social Media, Apps & Web</title>
+  <meta name="description" content="Rodiora is a creative technology studio building AI-powered videos, mobile apps, websites and social media content." />
+  <meta name="theme-color" content="#06070c" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rodiora — AI Video, Social Media, Apps & Web" />
+  <meta property="og:description" content="AI-powered videos, mobile apps, websites and social media content that help your brand grow." />
+  <meta property="og:image" content="assets/logo-placeholder.svg" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">İçeriğe geç</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <!-- LOGO PLACEHOLDER: replace assets/logo-placeholder.svg with the final logo (same file name = no code change) -->
+      <a class="brand" href="#top" aria-label="Rodiora">
+        <img class="brand-mark" src="assets/logo-placeholder.svg" alt="" width="38" height="38" />
+        <span class="brand-word">Rodiora</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#services" data-i18n="nav.services">Hizmetler</a>
+        <a href="#apps" data-i18n="nav.apps">Uygulamalar</a>
+        <a href="#process" data-i18n="nav.process">Süreç</a>
+        <a href="#about" data-i18n="nav.about">Hakkımızda</a>
+        <a href="#contact" data-i18n="nav.contact">İletişim</a>
+        <div class="nav-mobile-cta">
+          <a class="btn btn-primary btn-block" href="#contact" data-i18n="cta.start">Projeye başla</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Language / Dil">
+          <button type="button" class="lang-btn is-active" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-primary btn-sm header-cta" href="#contact" data-i18n="cta.start">Projeye başla</a>
+        <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menü">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">AI destekli kreatif stüdyo</span></span>
+          <h1 data-i18n-html="hero.h1">Fikirleri <span class="grad">insanların sevdiği</span> ürünlere dönüştürüyoruz.</h1>
+          <p class="hero-sub" data-i18n="hero.sub">Rodiora; markanızı büyüten AI videolar, mobil uygulamalar, web siteleri ve sosyal medya içerikleri üreten bir kreatif teknoloji stüdyosudur.</p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact"><span data-i18n="cta.start">Projeye başla</span><span class="arrow" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#services" data-i18n="cta.services">Neler yapıyoruz?</a>
+          </div>
+
+          <div class="store-buttons">
+            <a class="store-btn" data-store="google" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34d399" d="M3.6 1.9a1.9 1.9 0 0 0-.6 1.4v17.4c0 .6.2 1.1.6 1.4l9.6-10.1L3.6 1.9Z"/><path fill="#38bdf8" d="M16.8 8.5 6.7 2.7 3.6 1.9l9.6 10.1 3.6-3.5Z"/><path fill="#fbbf24" d="M16.8 15.5 13.2 12l-9.6 10.1 3.1-.8 10.1-5.8Z"/><path fill="#f472b6" d="m20.4 10.4-3.6-1.9-3.6 3.5 3.6 3.5 3.6-1.9c1.2-.7 1.2-2.5 0-3.2Z"/></svg>
+              <span class="store-txt"><small data-i18n="store.get">Google Play'den</small><strong data-i18n="store.google">İndir</strong></span>
+            </a>
+            <a class="store-btn" data-store="apple" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 1.4c0 1.1-.5 2.2-1.2 3-.8.9-2.2 1.6-3.3 1.5-.1-1.1.5-2.3 1.2-3 0 0 0 0 0 0 .8-.9 2.2-1.5 3.3-1.5ZM20.8 17.2c-.6 1.3-.8 1.8-1.5 3-1 1.6-2.4 3.5-4.1 3.5-1.5 0-1.9-1-4-1s-2.5 1-4 1c-1.7 0-3.1-1.8-4.1-3.4C.3 16 .1 10.9 1.8 8.2c1.2-2 3.1-3.1 4.9-3.1 1.8 0 3 1 4.5 1 1.5 0 2.4-1 4.5-1 1.6 0 3.3.9 4.5 2.4-4 2.2-3.3 7.9.6 9.7Z"/></svg>
+              <span class="store-txt"><small data-i18n="store.download">App Store'dan</small><strong data-i18n="store.apple">İndir</strong></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb"></div>
+          <div class="showreel">
+            <div class="showreel-top">
+              <span class="pill-live"><span class="live-dot"></span><span data-i18n="hero.live">Yeni</span></span>
+              <span class="showreel-name">rodiora.studio</span>
+            </div>
+            <div class="showreel-media">
+              <div class="reel-grid">
+                <div class="reel r1"></div>
+                <div class="reel r2"></div>
+                <div class="reel r3"></div>
+                <div class="reel r4"></div>
+              </div>
+              <button class="play" tabindex="-1"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.1v13.8c0 .8.9 1.3 1.6.9l10.5-6.9c.6-.4.6-1.4 0-1.8L9.6 4.2C8.9 3.8 8 4.3 8 5.1Z"/></svg></button>
+              <span class="reel-label" data-i18n="hero.cardTitle">AI Showreel 2026</span>
+            </div>
+            <div class="showreel-bottom">
+              <div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span data-i18n="hero.cardSub">Konsept · Üretim · Yayın</span>
+            </div>
+          </div>
+          <div class="float-chip chip-a"><span data-i18n="hero.chip1">AI Video</span></div>
+          <div class="float-chip chip-b"><span data-i18n="hero.chip2">Mobil Uygulama</span></div>
+          <div class="float-chip chip-c"><span data-i18n="hero.chip3">Sosyal Medya</span></div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span data-i18n="m1">AI Video Prodüksiyon</span><i>✳</i>
+          <span data-i18n="m2">Sosyal Medya Yönetimi</span><i>✳</i>
+          <span data-i18n="m3">iOS &amp; Android</span><i>✳</i>
+          <span data-i18n="m4">Web Siteleri</span><i>✳</i>
+          <span data-i18n="m5">Post · Story · Reels</span><i>✳</i>
+          <span data-i18n="m6">Marka Tasarımı</span><i>✳</i>
+          <span data-i18n="m1">AI Video Prodüksiyon</span><i>✳</i>
+          <span data-i18n="m2">Sosyal Medya Yönetimi</span><i>✳</i>
+          <span data-i18n="m3">iOS &amp; Android</span><i>✳</i>
+          <span data-i18n="m4">Web Siteleri</span><i>✳</i>
+          <span data-i18n="m5">Post · Story · Reels</span><i>✳</i>
+          <span data-i18n="m6">Marka Tasarımı</span><i>✳</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="services.eyebrow">Hizmetler</span></span>
+          <h2 data-i18n-html="services.h2">Tek çatı altında <span class="grad">tasarım, teknoloji</span> ve içerik.</h2>
+          <p data-i18n="services.sub">Stratejiden yayına kadar ihtiyacınız olan tüm üretim gücü. Farklı ekiplerle uğraşmadan, tek bir partnerle ilerleyin.</p>
+        </div>
+
+        <div class="bento">
+          <article class="card card-lg">
+            <div class="card-icon icon-video">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h10a2 2 0 0 1 2 2v2.2l3.4-1.9a1 1 0 0 1 1.6.9v9.6a1 1 0 0 1-1.6.9L16 15.8V18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm2 4v2.8l3-1.7V8H6Zm5.6 0v7.1l2.4 1.3V6.6L11.6 8Zm-5.6 4.9V16h3v-2.4l-3-1.7Z"/></svg>
+            </div>
+            <h3 data-i18n="s1.title">AI Video Prodüksiyon</h3>
+            <p data-i18n="s1.desc">Konsept ve senaryodan son kurguya kadar; reklam, lansman ve sosyal medya için sinematik, markanıza özel AI videolar üretiyoruz.</p>
+            <ul class="tags">
+              <li data-i18n="s1.t1">Reklam filmi</li>
+              <li data-i18n="s1.t2">Reels &amp; Shorts</li>
+              <li data-i18n="s1.t3">Ürün tanıtımı</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card-md">
+            <div class="card-icon icon-social">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm8.5 3a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7ZM9 14c-3.9 0-7 1.9-7 4.2V21h14v-2.8C16 15.9 12.9 14 9 14Zm8.5.5c-.9 0-1.7.1-2.4.4 1.2 1.1 1.9 2.5 1.9 4.1V21H23v-2c0-2-2.5-4.5-5.5-4.5Z"/></svg>
+            </div>
+            <h3 data-i18n="s2.title">Sosyal Medya Ajansı</h3>
+            <p data-i18n="s2.desc">Strateji, içerik takvimi, yayınlama ve topluluk yönetimi. Hesabınızı büyüten uçtan uca sosyal medya hizmeti.</p>
+            <ul class="tags">
+              <li data-i18n="s2.t1">Strateji</li>
+              <li data-i18n="s2.t2">Topluluk</li>
+              <li data-i18n="s2.t3">Raporlama</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card-sm">
+            <div class="card-icon icon-app">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Zm0 3v12h10V5H7Zm3 14v1h4v-1h-4Z"/></svg>
+            </div>
+            <h3 data-i18n="s3.title">Mobil Uygulama</h3>
+            <p data-i18n="s3.desc">iOS ve Android uygulamaları; ilk wireframe'den mağaza yayınına kadar tasarlanır ve geliştirilir.</p>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card-sm">
+            <div class="card-icon icon-web">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-6v2h3v2H7v-2h3v-2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm0 3v9h16V6H4Zm2 1.5h4v1.8H6V7.5Z"/></svg>
+            </div>
+            <h3 data-i18n="s4.title">Web Sitesi</h3>
+            <p data-i18n="s4.desc">Hızlı, mobil öncelikli ve dönüşüm odaklı web siteleri ile açılış sayfaları.</p>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card-sm">
+            <div class="card-icon icon-design">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a2 2 0 0 1 2 2v3h2a4 4 0 0 1 4 4 2 2 0 1 1 0 4 4 4 0 0 1-4 4h-2v1a2 2 0 1 1-4 0v-1H8a4 4 0 0 1-4-4 2 2 0 1 1 0-4 4 4 0 0 1 4-4h2V4a2 2 0 0 1 2-2Zm-4 7a2 2 0 0 0-2 2 2 2 0 0 0 2 2h8a2 2 0 0 0 2-2 2 2 0 0 0-2-2H8Z"/></svg>
+            </div>
+            <h3 data-i18n="s5.title">Tasarım &amp; İçerik</h3>
+            <p data-i18n="s5.desc">Post, story, reels kapakları ve marka kitleri: her kanalda tutarlı bir görsel dil.</p>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPS ============ -->
+    <section class="section" id="apps">
+      <div class="container">
+        <div class="apps-panel">
+          <div class="apps-copy">
+            <span class="eyebrow"><span class="dot"></span><span data-i18n="apps.eyebrow">Uygulamalarımız</span></span>
+            <h2 data-i18n-html="apps.h2">Yayında olan <span class="grad">mobil uygulamalarımız</span>.</h2>
+            <p data-i18n="apps.sub">Kendi ürünlerimizi tasarlıyor ve geliştiriyoruz. Aşağıdaki mağaza bağlantılarından uygulamalarımızı indirebilirsiniz.</p>
+            <div class="store-buttons store-buttons-lg">
+              <a class="store-btn store-btn-solid" data-store="google" href="#" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34d399" d="M3.6 1.9a1.9 1.9 0 0 0-.6 1.4v17.4c0 .6.2 1.1.6 1.4l9.6-10.1L3.6 1.9Z"/><path fill="#38bdf8" d="M16.8 8.5 6.7 2.7 3.6 1.9l9.6 10.1 3.6-3.5Z"/><path fill="#fbbf24" d="M16.8 15.5 13.2 12l-9.6 10.1 3.1-.8 10.1-5.8Z"/><path fill="#f472b6" d="m20.4 10.4-3.6-1.9-3.6 3.5 3.6 3.5 3.6-1.9c1.2-.7 1.2-2.5 0-3.2Z"/></svg>
+                <span class="store-txt"><small data-i18n="store.get">Google Play'den</small><strong data-i18n="store.google">İndir</strong></span>
+              </a>
+              <a class="store-btn store-btn-solid" data-store="apple" href="#" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 1.4c0 1.1-.5 2.2-1.2 3-.8.9-2.2 1.6-3.3 1.5-.1-1.1.5-2.3 1.2-3 .8-.9 2.2-1.5 3.3-1.5ZM20.8 17.2c-.6 1.3-.8 1.8-1.5 3-1 1.6-2.4 3.5-4.1 3.5-1.5 0-1.9-1-4-1s-2.5 1-4 1c-1.7 0-3.1-1.8-4.1-3.4C.3 16 .1 10.9 1.8 8.2c1.2-2 3.1-3.1 4.9-3.1 1.8 0 3 1 4.5 1 1.5 0 2.4-1 4.5-1 1.6 0 3.3.9 4.5 2.4-4 2.2-3.3 7.9.6 9.7Z"/></svg>
+                <span class="store-txt"><small data-i18n="store.download">App Store'dan</small><strong data-i18n="store.apple">İndir</strong></span>
+              </a>
+            </div>
+            <ul class="apps-points">
+              <li data-i18n="apps.f1">iOS &amp; Android</li>
+              <li data-i18n="apps.f2">AI destekli özellikler</li>
+              <li data-i18n="apps.f3">Kendi ekibimizle geliştirildi</li>
+            </ul>
+          </div>
+
+          <div class="apps-visual" aria-hidden="true">
+            <div class="phone">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <div class="app-bar"><span class="app-dot"></span><span class="app-title">Rodiora</span></div>
+                <div class="app-hero"></div>
+                <div class="app-lines"><span></span><span></span><span class="short"></span></div>
+                <div class="app-row"><span class="app-thumb"></span><span class="app-thumb"></span></div>
+                <div class="app-tabbar"><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="apps-ring" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head section-head-center">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="process.eyebrow">Nasıl çalışıyoruz</span></span>
+          <h2 data-i18n-html="process.h2">Net bir süreç, <span class="grad">öngörülebilir</span> sonuç.</h2>
+          <p data-i18n="process.sub">Kısa ve şeffaf adımlarla ilerliyoruz. Her aşamada ne olduğunu bilirsiniz.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">01</span>
+            <h3 data-i18n="p1.title">Keşif</h3>
+            <p data-i18n="p1.desc">Hedefi, kitleyi ve marka tonunu birlikte netleştiriyoruz.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">02</span>
+            <h3 data-i18n="p2.title">Tasarım</h3>
+            <p data-i18n="p2.desc">Konsept ve arayüzleri onayınıza sunuyor, birlikte olgunlaştırıyoruz.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">03</span>
+            <h3 data-i18n="p3.title">Üretim</h3>
+            <p data-i18n="p3.desc">Video, uygulama, web sitesi ve içerikleri üretip test ediyoruz.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">04</span>
+            <h3 data-i18n="p4.title">Yayın &amp; büyüme</h3>
+            <p data-i18n="p4.desc">Yayına alıyor, sonuçları ölçüyor ve içerikleri sürekli iyileştiriyoruz.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about-inner">
+        <div class="about-copy">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="about.eyebrow">Hakkımızda</span></span>
+          <h2 data-i18n-html="about.h2">Rodiora, <span class="grad">yaratıcılık</span> ile teknolojiyi birleştirir.</h2>
+          <p data-i18n="about.body">Küçük ve çevik bir ekiple; AI video üretiminden mobil uygulama geliştirmeye, sosyal medya yönetiminden web tasarımına kadar geniş bir yelpazede çalışıyoruz. Amacımız basit: markanızın dijitalde güçlü, tutarlı ve profesyonel görünmesi.</p>
+          <a class="btn btn-ghost" href="#contact"><span data-i18n="about.cta">Konuşalım</span><span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+        <div class="values">
+          <div class="value">
+            <h3 data-i18n="v1.title">Hız</h3>
+            <p data-i18n="v1.desc">Kısa döngülerle hızlıca üretir, geri bildirimle ilerleriz.</p>
+          </div>
+          <div class="value">
+            <h3 data-i18n="v2.title">Kalite</h3>
+            <p data-i18n="v2.desc">Detaylara önem verir, işi bitmiş haline kadar takip ederiz.</p>
+          </div>
+          <div class="value">
+            <h3 data-i18n="v3.title">Şeffaflık</h3>
+            <p data-i18n="v3.desc">Net kapsam, net takvim ve düzenli iletişim.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="contact.eyebrow">İletişim</span></span>
+          <h2 data-i18n-html="contact.h2">Projenizi <span class="grad">hayata geçirelim</span>.</h2>
+          <p data-i18n="contact.sub">Fikrinizi anlatın; size en uygun paketi ve takvimi birlikte belirleyelim. Genellikle 1 iş günü içinde dönüş yapıyoruz.</p>
+          <ul class="contact-list">
+            <li>
+              <span class="ci" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm9 7.4L4.6 7H19.4L12 12.4ZM4 9.2V17h16V9.2l-8 5.8-8-5.8Z"/></svg>
+              </span>
+              <div>
+                <small data-i18n="contact.emailLabel">E-posta</small>
+                <a href="mailto:hello@rodiora.com">hello@rodiora.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="ci" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7Zm0 4.5A2.5 2.5 0 1 0 12 11.5 2.5 2.5 0 0 0 12 6.5Z"/></svg>
+              </span>
+              <div>
+                <small data-i18n="contact.remoteLabel">Çalışma şekli</small>
+                <span data-i18n="contact.remote">Türkiye merkezli, global çalışıyoruz</span>
+              </div>
+            </li>
+          </ul>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="YouTube">YouTube</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name" data-i18n="form.name">Adınız</label>
+            <input id="name" name="name" type="text" autocomplete="name" required data-i18n-placeholder="form.namePh" placeholder="Adınız" />
+          </div>
+          <div class="field">
+            <label for="email" data-i18n="form.email">E-posta</label>
+            <input id="email" name="email" type="email" autocomplete="email" required data-i18n-placeholder="form.emailPh" placeholder="ornek@firma.com" />
+          </div>
+          <div class="field">
+            <label for="topic" data-i18n="form.topic">Konu</label>
+            <select id="topic" name="topic">
+              <option data-i18n="form.topic1" value="AI video">AI video prodüksiyonu</option>
+              <option data-i18n="form.topic2" value="Sosyal medya">Sosyal medya yönetimi</option>
+              <option data-i18n="form.topic3" value="Mobil uygulama">Mobil uygulama</option>
+              <option data-i18n="form.topic4" value="Web sitesi">Web sitesi</option>
+              <option data-i18n="form.topic5" value="Tasarım">Tasarım &amp; içerik</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="form.message">Mesajınız</label>
+            <textarea id="message" name="message" rows="4" required data-i18n-placeholder="form.messagePh" placeholder="Projenizden kısaca bahsedin..."></textarea>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit" data-i18n="form.submit">Mesajı gönder</button>
+          <p class="form-note" data-i18n="form.note">Form, mesajınızı e-posta uygulamanızda açar. Dilerseniz doğrudan hello@rodiora.com adresine yazabilirsiniz.</p>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="Rodiora">
+          <img class="brand-mark" src="assets/logo-placeholder.svg" alt="" width="34" height="34" />
+          <span class="brand-word">Rodiora</span>
+        </a>
+        <p data-i18n="footer.tagline">AI video, sosyal medya, mobil uygulama ve web sitesi stüdyosu.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#services" data-i18n="nav.services">Hizmetler</a>
+        <a href="#apps" data-i18n="nav.apps">Uygulamalar</a>
+        <a href="#process" data-i18n="nav.process">Süreç</a>
+        <a href="#about" data-i18n="nav.about">Hakkımızda</a>
+        <a href="#contact" data-i18n="nav.contact">İletişim</a>
+      </nav>
+      <div class="footer-stores">
+        <a data-store="google" href="#" target="_blank" rel="noopener" data-i18n="footer.play">Google Play</a>
+        <a data-store="apple" href="#" target="_blank" rel="noopener" data-i18n="footer.apple">App Store</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Rodiora. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></span>
+      <div class="lang-switch lang-switch-footer" role="group" aria-label="Language / Dil">
+        <button type="button" class="lang-btn is-active" data-lang="tr" aria-pressed="true">TR</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
